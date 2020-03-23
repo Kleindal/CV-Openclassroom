@@ -1,0 +1,25 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    display: flexbox;
+    height: 100px;
+}
+
+.col-4 {
+    background-color: #F4511E;
+    border: solid 1px black;
+}
+
+.col-8 {
+    background-color: #3a35357c;
+}
+
+#contact, #about, #hobbies {
+    height: 30px;
+    background-color: #212121;
+}
