@@ -4,9 +4,10 @@
     padding: 0;
 }
 
+
 .container-fluid {
     height: 100vh;
-    background-color: blue;
+    background-color: grey;
 }
 div {
     display: flexbox;
@@ -15,14 +16,33 @@ div {
 
 .photo {
     text-align: center;
-
 }
-#photo {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    padding: 50px;
+
+.name h1 {
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 50px;
+    font-size: 2.5em;
+    color: black;
+}
+
+.name h3 {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 1.3em;
+}
+
+.name span {
+    display: inline;
+    color: #F4511E;
+}
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
     background: black;
+    margin: 50px;
 }
 
 .col-4 {
@@ -34,16 +54,35 @@ div {
 .col-8 {
     text-align: center;
     color: black;
-    background-color: #b5ffbf7c;
+    background-color: white;
 }
 
 #contact, #about, #hobbies {
     text-align: center;
     line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
     color: #F4511E;
     background-color: #212121;
 }
 
-p {
-    color: #212121;
+.infos {
+    padding: 20px;
+    margin-left: 10px;
+    color: rgb(50, 50, 50);
+}
+
+.titles h4{
+    text-align: left;
+    margin-left: 100px;
+    font-size: 20px;
+    color:rgb(50, 50, 50);
+}
+
+ion-icon {
+    float: left;
+    margin-left: 65px;
+    margin-top: 2px;
+    color: #F4511E;
+    font-size: 22px;
 }
