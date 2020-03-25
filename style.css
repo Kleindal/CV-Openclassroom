@@ -5,20 +5,23 @@
 }
 
 
-.container-fluid {
+.second-box { /*Partie secondaire à gauche*/
     height: 100vh;
     background-color: grey;
 }
 div {
     display: flexbox;
-    color: white;
 }
 
 .photo {
     text-align: center;
 }
 
-.name h1 {
+.name span { /*First name*/
+    display: inline;
+    color: #FF7043;
+}
+.name h1 { /*Last Name*/
     text-align: left;
     margin-top: 100px;
     padding-left: 50px;
@@ -26,17 +29,14 @@ div {
     color: rgb(50, 50, 50);
 }
 
-.name h3 {
+.name h3 { /*Situation*/
     text-align: left;
     margin-top: 10px;
     padding-left: 50px;
     font-size: 1.3em;
 }
 
-.name span {
-    display: inline;
-    color: #FF7043;
-}
+
 img {
     height: 150px;
     width: 150px;
@@ -45,15 +45,10 @@ img {
     margin: 50px;
 }
 
-.col-4 {
+.col-4 { /*Partie secondaire à gauche*/
     background-color: #FF7043;
     padding: 0 !important;
-}
 
-.col-8 {
-    text-align: center;
-    color: rgb(50, 50, 50);
-    background-color: white;
 }
 
 #contact, #about, #hobbies {
@@ -65,23 +60,35 @@ img {
     background-color: rgb(50, 50, 50);
 }
 
-.infos {
+.infos { /*Contenu de #contact #about #hobbies*/
     padding: 20px;
     margin-left: 10px;
     color: rgb(50, 50, 50);
 }
 
-.titles h4{
+.col-8 { /*Partie principale à droite*/
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: white;
+}
+
+.box-main { /*Partie principale à droite*/
+    margin-left: 65px !important;
+    border: solid 2px black;
+}
+
+.titles h4{ /*Élements Formation, Expérience professionnel, Recommandations*/
     text-align: left;
     margin-left: 100px;
     font-size: 20px;
     color:rgb(50, 50, 50);
 }
 
-ion-icon {
+.icons-main { /*Icones devant les titres*/
     float: left;
     margin-left: 65px;
     margin-top: 2px;
     color: #FF7043;
     font-size: 22px;
 }
+
