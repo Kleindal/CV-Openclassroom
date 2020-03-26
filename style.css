@@ -10,7 +10,7 @@
     background-color: grey;
 }
 div {
-    display: flexbox;
+    display: block;
 }
 
 .photo {
@@ -73,22 +73,51 @@ img {
 }
 
 .box-main { /*Partie principale à droite*/
-    margin-left: 65px !important;
-    border: solid 2px black;
+    margin-left: 70px !important;
+    border-top: solid 2px black;
+    padding: 1em;
 }
 
-.titles h4{ /*Élements Formation, Expérience professionnel, Recommandations*/
+.titles h3{ /*Élements Formation, Expérience professionnel, Recommandations*/
     text-align: left;
     margin-left: 100px;
+    padding: 2px;
     font-size: 20px;
     color:rgb(50, 50, 50);
 }
 
 .icons-main { /*Icones devant les titres*/
     float: left;
-    margin-left: 65px;
-    margin-top: 2px;
+    margin-left: 70px;
+    margin-right: 1em;
     color: #FF7043;
-    font-size: 22px;
+    font-size: 30px;
 }
 
+div div div .formation-date {
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+
+}
+
+.icons-date { /*Icones devant les dates, partie de droite*/
+    float: left;
+    margin-top: 7px;
+    margin-right: 20px;
+    color: #FF7043;
+    font-size: 17px;
+}
+
+div div div .col-5 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 3em;
+
+
+}
+
+.fond {
+    height: 0;
+    width: 0;
+}
