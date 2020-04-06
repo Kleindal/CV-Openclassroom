@@ -20,16 +20,22 @@
     }
 }
 
-.main-box { /*Partie secondaire à gauche*/
-    background: #CDDC39;
-}
 .page {
     min-height: 100vh;
 }
 
-div {
-    display: block;
+.main-box { /*Partie secondaire à gauche*/
+    background: #CDDC39;
+    padding: 0 !important;
 }
+
+#menu {
+    padding: 0 !important;
+}
+
+/* div {
+    display: block;
+} */
 
 .photo {
     text-align: center;
@@ -69,6 +75,10 @@ img {
 
 }
 
+.padding-0 {
+    padding: 0 !important;
+}
+
 #contact, #about, #hobbies {
     text-align: center;
     line-height: 40px;
@@ -90,10 +100,6 @@ img {
     background-color: white;
 }
 
-.box-main { /*Partie principale à droite*/
-    border-top: solid 2px black;
-    padding: 1em;
-}
 
 .titles h3{ /*Élements Formation, Expérience professionnel, Recommandations*/
     text-align: left;
@@ -115,7 +121,6 @@ img {
     text-align: left;
     line-height: 30px;
     font-size: 15px;
-
 }
 
 .icons-date { /*Icones devant les dates, partie de droite*/
@@ -124,14 +129,6 @@ img {
     margin-right: 20px;
     color: #CDDC39;
     font-size: 17px;
-}
-
-.col-5 {
-    display: inline-block;
-    text-align: left;
-    margin-left: 3em;
-
-
 }
 
 .fond {
