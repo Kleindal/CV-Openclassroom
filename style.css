@@ -71,28 +71,26 @@ img {
 }
 
 
-
-
-
 /*Partie professionnelle à droite*/
 
+.name {
+    text-align: left;
+    margin-top: 100px;
+    padding: auto;
+}
 
-.name span { /*Prénom*/
+span { /*Prénom*/
     display: inline;
     color: #CDDC39;
 }
-.name h1 { /*Nom*/
-    text-align: left;
-    margin-top: 100px;
-    padding-left: 50px;
+
+h1 { /*Nom*/
     font-size: 2.5em;
     color: rgb(50, 50, 50);
 }
 
 h3 { /*Situation*/
-    text-align: left;
     margin-top: 10px;
-    padding-left: 50px;
     font-size: 1em;
 }
  
