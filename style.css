@@ -20,6 +20,11 @@
     }
 }
 
+Tout les éléments 
+p {
+    margin: 0 !important;
+}
+
 .page {
     min-height: 100vh;
 }
@@ -73,32 +78,39 @@ img {
 
 /*Partie professionnelle à droite*/
 
-.name {
+.identity {
     display: inline;
-}
-#first-name {
-    color: rgb(65, 65, 65);
     text-align: left;
     margin-top: 100px;
-    padding: auto;
+}
+
+.name {
     font-size: 2em;
 }
 
-#last-name {
-    color: rgb(65, 65, 65);
-    font-size: 1.5em;
+#first {
+    color: #CDDC39;  
 }
 
-span {
-    #CDDC39
+.status {
+    color: rgb(65, 65, 65) !important;
+    font-size: 1.5em;
+    display: inline;
+    padding: auto;
 }
+
+/* span {
+    color: #CDDC39;
+} */
  
 .title { /*Titres Formation, Expérience professionnel, Recommandations*/
     text-align: left;
-    margin-top: auto;
-    padding-top: 2em;
+    margin: auto auto 0px auto !important;
+    padding-bottom: 0px !important ;
     font-size: 20px;
     color:rgb(65, 65, 65);
+
+    border-bottom: solid 1px #CDDC39;
 }
 
 .col-8 { /*Partie principale à droite*/
@@ -107,25 +119,8 @@ span {
     background-color: white;
 }
 
-
-.icons-main { /*Icones devant les titres*/
-    float: left;
-    margin-left: 70px;
-    margin-right: 1em;
-    color: #CDDC39;
-    font-size: 30px;
-}
-
 .inside-main {
     display: block;
-}
-
-.icons-date { /*Icones devant les dates*/
-    float: left;
-    margin-top: 7px;
-    margin-right: 20px;
-    color: #CDDC39;
-    font-size: 17px;
 }
 
 .fond {
