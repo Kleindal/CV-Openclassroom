@@ -20,13 +20,18 @@
     }
 }
 
-Tout les éléments 
+/* Tout les éléments  */
 p {
     margin: 0 !important;
 }
 
 .page {
     min-height: 100vh;
+}
+
+/* Suppression du padding auto de Bootstraps col-12 lg.22*/
+.padding-0 { 
+    padding: 0 !important;
 }
 
 /*Partie informative à gauche*/
@@ -64,24 +69,13 @@ img {
     color: rgb(50, 50, 50);
 }
 
-.col-4 {
-    background-color: #CDDC39;
-    padding: 0 !important;
-
-}
-
-/* Suppression du padding auto de Bootstraps col-12 lg.22*/
-.padding-0 { 
-    padding: 0 !important;
-}
-
 
 /*Partie professionnelle à droite*/
 
 .identity {
     display: inline;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .name {
@@ -96,14 +90,9 @@ img {
     color: rgb(65, 65, 65) !important;
     font-size: 1.5em;
     display: inline;
-    padding: auto;
 }
-
-/* span {
-    color: #CDDC39;
-} */
  
-.title { /*Titres Formation, Expérience professionnel, Recommandations*/
+.title { /*Titres : Formation, Expérience professionnel, Recommandations*/
     text-align: left;
     margin: auto auto 0px auto !important;
     padding-bottom: 0px !important ;
