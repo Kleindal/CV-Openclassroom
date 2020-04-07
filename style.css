@@ -33,15 +33,15 @@ p {
 
 .photo {
     text-align: center;
+    display: inline-block;
+    margin: 50px 0 25px 0;
 }
 
 img {
-    text-align: center;
     height: 150px;
     width: 150px;
     border-radius: 80px;
     background: rgb(50, 50, 50);
-    margin: 50px;
 }
 
 .main-box { 
@@ -70,7 +70,7 @@ img {
 
 }
 
-/* Suppression du padding auto de Bootstraps */
+/* Suppression du padding auto de Bootstraps col-12 lg.22*/
 .padding-0 { 
     padding: 0 !important;
 }
