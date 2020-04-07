@@ -74,30 +74,29 @@ img {
 /*Partie professionnelle à droite*/
 
 .name {
+    display: inline;
+}
+#first-name {
+    color: rgb(65, 65, 65);
     text-align: left;
     margin-top: 100px;
     padding: auto;
+    font-size: 2em;
 }
 
-span { /*Prénom*/
-    display: inline;
-    color: #CDDC39;
+#last-name {
+    color: rgb(65, 65, 65);
+    font-size: 1.5em;
 }
 
-h1 { /*Nom*/
-    font-size: 2.5em;
-    color: rgb(50, 50, 50);
-}
-
-h3 { /*Situation*/
-    margin-top: 10px;
-    font-size: 1em;
+span {
+    #CDDC39
 }
  
-.titles h3{ /*Titres Formation, Expérience professionnel, Recommandations*/
+.title { /*Titres Formation, Expérience professionnel, Recommandations*/
     text-align: left;
-    margin-left: 100px;
-    padding: 2px;
+    margin-top: auto;
+    padding-top: 2em;
     font-size: 20px;
     color:rgb(65, 65, 65);
 }
@@ -117,10 +116,8 @@ h3 { /*Situation*/
     font-size: 30px;
 }
 
-.formation-date {
-    text-align: left;
-    line-height: 30px;
-    font-size: 15px;
+.inside-main {
+    display: block;
 }
 
 .icons-date { /*Icones devant les dates*/
