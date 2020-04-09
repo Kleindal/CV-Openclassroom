@@ -47,6 +47,10 @@ img {
     background-color: rgb(50, 50, 50);
 }
 
+#hobbies {
+    position: relative;
+    margin-bottom: 0;
+}
 .infos { /*Contenu de #contact #about #hobbies*/
     padding: 20px;
     margin-left: 10px;
