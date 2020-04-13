@@ -70,8 +70,8 @@ img {
 .identity {
     display: inline;
     text-align: left !important;
-    margin-top: 5em;
-    margin-bottom: 3em;
+    margin-top: 5em !important;
+    margin-bottom: 3em !important;
 }
 
 .name {
@@ -90,7 +90,7 @@ img {
  
 .title { /*Titres : Formation, Expérience professionnel, Recommandations*/
     text-align: left;
-    margin: 15px 0px 30px 15px !important;
+    margin: 1em 0px 2em 1em !important;
     padding-bottom: 0px !important ;
     font-size: 15px !important;
     color:rgb(65, 65, 65);
