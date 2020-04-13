@@ -29,7 +29,7 @@ p {
 img {
     height: 150px;
     width: 150px;
-    border-radius: 80px;
+    border-radius: 100px;
     background: rgb(50, 50, 50);
 }
 
@@ -67,6 +67,9 @@ img {
 
 /*Partie professionnelle à droite*/
 
+.second-box {
+    padding-left: 40px !important;
+}
 .identity {
     display: inline;
     text-align: left !important;
@@ -98,23 +101,45 @@ img {
     border-bottom: solid 1px #CDDC39;
 }
 
+.icon-col {
+
+}
+
+.dates {
+    display: inline-flex;
+    padding-left: 0em !important;
+    margin-bottom: 1em;
+}
 .section-infos { 
     margin-bottom: 30px;
 }
+
+
+
 
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
+
+    .dates {
+        display: block;
+    }
 }
 @media (min-width: 992px) {
     .container {
-        width: 970px;
+        width: 980px;
+    }
+
+    .dates {
+        display: block;
     }
 }
 @media (min-width: 1198.98px) {
     .container {
         width: 1170px;
     }
+
+
 }
 
