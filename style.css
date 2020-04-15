@@ -71,6 +71,7 @@ img {
 
 .infos { /*Contenu de #contact #about #hobbies*/
     margin: 35px;
+    font-size: 15px;
     color: rgb(65, 65, 65);
 }
 
@@ -106,30 +107,42 @@ img {
 }
  
 .title { /*Titres : Formation, Expérience professionnel, Recommandations*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-align: left;
     margin: 1em 0px 2em 1em !important;
-    padding-bottom: 0px !important ;
+    padding: 0px !important;
+
     font-size: 15px !important;
     color:rgb(65, 65, 65);
-
     border-bottom: solid 1px #CDDC39;
 }
 
-.i {
-    width: 100%;
-
+.title i {
+    margin: 0 15px 10px 0;
+    font-size: 35px;
+    color: #CDDC39;
 }
-
 
 .dates {
     margin-bottom: 1em;
     padding-left: 0em !important;
+    font-size: 15px;
 }
 
+h5 {
+    text-transform: uppercase;
+}
 .section-infos { 
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
+a {
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+}
 
 @media (min-width: 768px) {
     .container {
