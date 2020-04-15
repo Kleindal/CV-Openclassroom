@@ -13,6 +13,10 @@ p {
     min-height: 100vh;
 }
 
+body {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
 /* Suppression du padding auto de Bootstraps col-12 lg.22*/
 .padding-0 { 
     padding: 0 !important;
@@ -100,6 +104,10 @@ img {
     color: #CDDC39;  
 }
 
+#status-decoration {
+    border-bottom: solid 1px #CDDC39;
+}
+
 .status {
     display: inline;
     font-size: 1.5em;
@@ -124,12 +132,13 @@ img {
     color: #CDDC39;
 }
 
-.dates {
-    margin-bottom: 1em;
-    padding-left: 0em !important;
-    font-size: 15px;
+a {
+    text-decoration: none !important;
 }
 
+a:hover {
+    text-decoration-color: #CDDC39 !important;
+}
 h4 {
     font-size: 20px !important;
     font-weight: bold !important;
@@ -139,14 +148,24 @@ h5 {
     text-transform: uppercase;
 }
 
+.section-infos div {
+    margin-bottom: 0.5em;
+    font-weight: lighter;
+}
+
+.dates {
+    margin-bottom: 1em;
+    padding-left: 0em !important;
+    font-size: 15px;
+}
+
 .section-infos { 
     margin-bottom: 30px;
     font-size: 15px;
 }
 
-a {
-    text-decoration: none !important;
-    text-decoration-style: none !important;
+.section-infos span {
+    padding-bottom: 50px !important;
 }
 
 @media (min-width: 768px) {
