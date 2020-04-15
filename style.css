@@ -23,7 +23,7 @@ p {
 .photo {
     text-align: center;
     display: inline-block;
-    margin: 50px 0 25px 0;
+    margin: 50px 0 30px 0;
 }
 
 img {
@@ -55,6 +55,20 @@ img {
 #hobbies {
     margin-top: 20em;
 }
+
+.hobbies-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1em 0px 1em 0px;
+    padding-left: 20 !important;
+    justify-content: space-around;
+    font-size: 30px;
+
+    color: rgb(65, 65, 65);
+
+}
+
 .infos { /*Contenu de #contact #about #hobbies*/
     margin: 35px;
     color: rgb(65, 65, 65);
