@@ -102,21 +102,19 @@ img {
 }
 
 .i {
-    float: left;
+    width: 100%;
+
 }
 
 
 .dates {
-    padding-left: 0em !important;
     margin-bottom: 1em;
-    vertical-align: middle;
-    clear: both;
+    padding-left: 0em !important;
 }
+
 .section-infos { 
     margin-bottom: 30px;
 }
-
-
 
 
 @media (min-width: 768px) {
