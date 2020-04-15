@@ -101,14 +101,16 @@ img {
     border-bottom: solid 1px #CDDC39;
 }
 
-.icon-col {
-
+.i {
+    float: left;
 }
 
+
 .dates {
-    display: inline-flex;
     padding-left: 0em !important;
     margin-bottom: 1em;
+    vertical-align: middle;
+    clear: both;
 }
 .section-infos { 
     margin-bottom: 30px;
@@ -122,24 +124,17 @@ img {
         width: 750px;
     }
 
-    .dates {
-        display: block;
-    }
 }
 @media (min-width: 992px) {
     .container {
         width: 980px;
     }
 
-    .dates {
-        display: block;
-    }
 }
 @media (min-width: 1198.98px) {
     .container {
         width: 1170px;
     }
-
 
 }
 
