@@ -115,8 +115,8 @@ img {
 }
  
 .title { /*Titres : Formation, Expérience professionnel, Recommandations*/
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: row !important;
     align-items: center;
     text-align: left;
     margin: 1em 0px 2em 1em !important;
