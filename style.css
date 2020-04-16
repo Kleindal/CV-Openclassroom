@@ -37,7 +37,7 @@ img {
     background: rgb(50, 50, 50);
 }
 
-.main-box { 
+.aside-box { 
     background: #CDDC39;
     padding: 0 !important;
 }
@@ -99,7 +99,7 @@ img {
 
 /*Partie professionnelle à droite*/
 
-.second-box {
+.main-box {
     padding-left: 35px !important;
     margin: auto;
     margin-top: 2em !important;
@@ -227,15 +227,6 @@ h5:hover {
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: #CDDC39; 
-}
-
-.btn-link {
-    color: rgb(65, 65, 65) !important;
-}
-
-.btn-link:hover,
-.btn-link:active {
-    border: solid 1px #CDDC39;
 }
 
 @media (min-width: 768px) {
