@@ -93,15 +93,20 @@ img {
     text-decoration: none;
 }
 
+#link-website:hover {
+    border-bottom: solid 1px rgba(65, 65, 65, 0.5);
+}
+
 /*Partie professionnelle à droite*/
 
 .second-box {
     padding-left: 35px !important;
+    margin: auto;
 }
 .identity {
     display: inline;
     text-align: left !important;
-    margin-top: 5em !important;
+    margin-top: 3em !important;
     margin-bottom: 3em !important;
 }
 
@@ -173,6 +178,9 @@ h5:hover {
     font-size: 15px;
 }
 
+.dates i {
+    color: #CDDC39;
+}
 .section-infos { 
     margin-bottom: 30px;
     font-size: 15px;
