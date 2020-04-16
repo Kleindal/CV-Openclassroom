@@ -57,7 +57,7 @@ img {
 }
 
 #hobbies {
-    margin-top: 20em;
+    margin-top: 270px;
 }
 
 .hobbies-icons {
@@ -78,8 +78,8 @@ img {
     justify-content: space-around;
     border: solid 2px rgb(65, 65, 65);
     padding: 5px !important;
-    height: 62px;
-    width: 62px;
+    height: 58px;
+    width: 58px;
     border-radius: 100%;
 }
 .infos { /*Contenu de #contact #about #hobbies*/
@@ -102,6 +102,7 @@ img {
 .second-box {
     padding-left: 35px !important;
     margin: auto;
+    margin-top: 2em !important;
 }
 .identity {
     display: inline;
@@ -195,9 +196,20 @@ h5:hover {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: space-around;
-    justify-content: space-evenly;
-    margin-left: 1em !important;
+    justify-content: space-around;
+    margin-bottom: 15px;
 }
+
+.uppercase, .bold {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
