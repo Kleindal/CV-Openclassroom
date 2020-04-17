@@ -81,14 +81,6 @@ img {
     color: rgb(65, 65, 65);
 }
 
-#link-website {
-    color: rgb(65, 65, 65);
-    text-decoration: none;
-}
-
-#link-website:hover {
-    border-bottom: solid 1px rgba(65, 65, 65, 0.5);
-}
 
 /*Partie professionnelle à droite*/
 
@@ -139,10 +131,6 @@ img {
     margin: 0 20px 10px 0;
     font-size: 27px;
     color: #CDDC39;
-}
-
-a {
-    text-decoration: none !important;
 }
 
 h4 {
@@ -203,7 +191,21 @@ h5:hover {
     text-transform: uppercase;
 }
 
-/* Let's get this party started */
+
+/* Non important */
+#link-website {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+#link-website:hover {
+    border-bottom: solid 1px rgba(65, 65, 65, 0.5);
+}
+
+a {
+    text-decoration: none !important;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }
