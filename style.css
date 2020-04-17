@@ -14,12 +14,7 @@ p {
 }
 
 body {
-    font-family: 'Quicksand', sans-serif !important;
-}
-
-/* Suppression du padding auto de Bootstraps col-12 lg.22*/
-.padding-0 { 
-    padding: 0 !important;
+    font-family: 'Quicksand', 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', 'Verdana', sans-serif !important;
 }
 
 /*Partie informative à gauche*/
@@ -42,7 +37,7 @@ img {
     padding: 0 !important;
 }
 
-#contact, #about, #hobbies {
+#t-contact, #t-about, #t-hobbies {
     text-align: center;
     line-height: 40px;
     font-size: 20px;
@@ -51,12 +46,12 @@ img {
     background-color: rgb(65, 65, 65);
 }
 
-.contact-padding div{
+.contact div{
     padding-top: 2px;
     padding-bottom: 3px;
 }
 
-#hobbies {
+#t-hobbies {
     margin-top: 270px;
 }
 
@@ -67,9 +62,7 @@ img {
     margin: 1em 0 1em 0;
     justify-content: space-between;
     font-size: 25px;
-
     color: rgb(65, 65, 65);
-
 }
 
 .hobbies-icons i {
@@ -108,7 +101,7 @@ img {
     display: inline;
     text-align: left !important;
     margin-top: 3em !important;
-    margin-bottom: 3em !important;
+    margin-bottom: 3.5em !important;
 }
 
 .name {
